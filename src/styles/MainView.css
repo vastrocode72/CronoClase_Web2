@@ -4,6 +4,6 @@
   align-items: center; /* lo deja arriba pero centrado */
   min-height: 100vh;       /* ocupa toda la altura de la pantalla */
   width: 100%;
-  padding: 2rem 1rem;      /* espacio para que no pegue a los bordes */
+  padding: 8rem 1rem 2rem 1rem;      /* compensación para NavBar fijo + margen */
   box-sizing: border-box;
 }

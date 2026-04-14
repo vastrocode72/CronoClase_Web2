@@ -2,6 +2,6 @@
 import React from 'react'
 import LogIn from '../components/LogIn'
 
-export default function InicioSesion({ onEnter }) {
+export  function InicioSesion({ onEnter }) {
 	return <LogIn onLogin={onEnter} />
 }

@@ -3,6 +3,9 @@ import { PanelMomento } from "../components/PanelMomento";
 import NavBar from "../components/NavBar";
 import { Footer } from "../components/Footer";
 
+//Esto va a cambiar el visual para que se vean los grupos
+
+
 export function PanelCargaActividades() {
   return (
     <div className="page-container">

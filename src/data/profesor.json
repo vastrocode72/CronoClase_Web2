@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Albert Einstein",
+        "email": "albert.e@cronoclase.edu",
+        "documentoID": "80123456"
+    },
+    {
+        "nombre": "Marie Curie",
+        "email": "marie.c@cronoclase.edu",
+        "documentoID": "80123456"
+    },
+    {
+        "nombre": "Isaac Newton",
+        "email": "isaac.n@cronoclase.edu",
+        "documentoID": "80123456"
+    },
+    {
+        "nombre": "Ada Lovelace",
+        "email": "ada.l@cronoclase.edu",
+        "documentoID": "80123456"
+    },
+    {
+        "nombre": "Charles Darwin",
+        "email": "charles.d@cronoclase.edu",
+        "documentoID": "80123456"
+    }
+]

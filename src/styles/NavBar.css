@@ -17,6 +17,7 @@
     top: 0;
     left: 0;
     flex-direction: row-reverse;
+    z-index: 1000;
 }
 
 
@@ -38,6 +39,7 @@
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 .nav-button img {
@@ -53,6 +55,62 @@
     transform: translateY(-2px);
 }
 
-a{
+a {
     font-family: "Rhodium Libre", serif;
+}
+
+/* --- NavBar Responsive --- */
+
+@media (max-width: 1024px) {
+    .nav-buttons {
+        gap: 1rem;
+    }
+
+    .nav-button {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .navCalendar {
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        position: relative;
+        /* Cambiar a relativo para evitar solapamiento en móviles si hay muchos botones */
+    }
+
+    .nav-buttons {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+
+    .nav-button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .nav-button img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-buttons {
+        justify-content: space-evenly;
+    }
+
+    .nav-button {
+        width: 45%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-button {
+        width: 100%;
+    }
 }

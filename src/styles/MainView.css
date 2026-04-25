@@ -1,4 +1,6 @@
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
 }
@@ -21,11 +23,31 @@ html, body, #root {
 .main-title {
   font-size: 4rem;
   font-family: "Vibur", cursive;
-  
   font-style: normal;
-
-  
   color: #493d9e;
   margin: 0px;
-  
+  text-align: center;
+}
+
+/* --- Responsive Layout --- */
+
+@media (max-width: 768px) {
+  .mainViewContainer {
+    padding-top: 6rem;
+    gap: 1.5rem;
+  }
+
+  .main-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainViewContainer {
+    padding-top: 5rem;
+  }
+
+  .main-title {
+    font-size: 2.2rem;
+  }
 }

@@ -1,5 +1,7 @@
 /* Asegura que la app pueda ocupar toda la altura */
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
 }
@@ -13,7 +15,8 @@ html, body, #root {
 
 /* Main ocupa el espacio entre navbar y footer */
 .panel-container {
-  flex: 1; /* empuja el footer abajo */
+  flex: 1;
+  /* empuja el footer abajo */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,5 +41,6 @@ html, body, #root {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  flex-wrap: wrap; /* importante para responsive */
+  flex-wrap: wrap;
+  /* importante para responsive */
 }

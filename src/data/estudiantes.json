@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Carlos Alberto Ruiz",
+        "email": "carlos.ruiz@ejemplo.com",
+        "documentoID": "80123456"
+    },
+    {
+        "nombre": "Maria Fernanda Lopez",
+        "email": "maria.lopez@ejemplo.com",
+        "documentoID": "10258963"
+    },
+    {
+        "nombre": "Julian Andres Castro",
+        "email": "julian.castro@ejemplo.com",
+        "documentoID": "79564123"
+    },
+    {
+        "nombre": "Sofia Valentina Gomez",
+        "email": "sofia.gomez@ejemplo.com",
+        "documentoID": "10154789"
+    },
+    {
+        "nombre": "Ricardo Antonio Mejia",
+        "email": "ricardo.mejia@ejemplo.com",
+        "documentoID": "88231456"
+    }
+]

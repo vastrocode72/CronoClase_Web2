@@ -1,0 +1,125 @@
+.momento-card {
+  background-color: #e9e6f7;
+  border: 2px solid #3f3d9b;
+  border-radius: 15px;
+  width: 260px;
+  min-height: 250px;
+  /* Asegurar espacio vertical suficiente */
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+
+  /* Layout Flex interno */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.momento-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 14px 28px rgba(63, 61, 155, 0.25), 0 10px 10px rgba(63, 61, 155, 0.22);
+  border-color: #b2a5ff;
+}
+
+.titulo {
+  color: #3f3d9b;
+  margin: 0;
+  /* Limpiar márgenes por defecto */
+  font-size: 1.5rem;
+}
+
+.subtitulo {
+  color: #3f3d9b;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.btn-cargar {
+  display: inline-block;
+  background-color: #f4e3a1;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: #3f3d9b;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.btn-cargar:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos de contenedor para alineación y sticky footer */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.panel-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 2rem;
+  margin-top: 100px;
+  font-family: "Rhodium Libre", serif;
+}
+
+.panel-title {
+  color: #3f3d9b;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.momentos-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  /* Permitir que las tarjetas bajen */
+  width: 100%;
+}
+
+/* --- Media Queries para Responsividad --- */
+
+@media (max-width: 768px) {
+  .panel-container {
+    margin-top: 80px;
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .panel-title {
+    font-size: 1.5rem;
+  }
+
+  .momentos-wrapper {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .panel-container {
+    margin-top: 70px;
+  }
+
+  .panel-title {
+    font-size: 1.3rem;
+  }
+
+  .momento-card {
+    width: 280px;
+    padding: 20px 10px;
+  }
+}

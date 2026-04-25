@@ -18,4 +18,3 @@ export default function LogoClock() {
     )
 }
 
-export default LogoClock;

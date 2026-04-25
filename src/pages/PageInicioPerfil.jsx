@@ -5,11 +5,11 @@ import PageInicioPerfilButton from '../components/PageInicioPerfilButton'
 function PageInicioPerfil() {
   return (
     <div>
-    <LogoClock />
-    <h1 className="panel-title">
+      <LogoClock />
+       <h1 className="panel-title">
           Escoge tu rol
         </h1>
-    <PageInicioPerfilButton/>
+      <PageInicioPerfilButton/>
     </div>
 
   )

@@ -1,6 +1,4 @@
 import React from 'react'
-import '../styles/LogInEstudiante.css'
-import React from "react";
 import "../styles/StyleLogInEstudiante.css";
 import { useState, useEffect } from "react";
 import { end_points, fakeRoutes } from "../services/api";

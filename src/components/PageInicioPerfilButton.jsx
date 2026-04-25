@@ -1,16 +1,16 @@
-import "../styles/PageInicioPerfilButton.css";
 import { Link } from "react-router-dom";
+import "../styles/Buttons.css";
 
 export function PageInicioPerfilButton() {
   return (
-<div>
-    <button>
+    <div className="button-container">
+      <button className="button">
         Estudiante
-    </button>
-    <button>
+      </button>
+      <button className="button">
         Profesor
-    </button>
-</div>
+      </button>
+    </div>
   );
 }
 

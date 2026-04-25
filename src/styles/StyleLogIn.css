@@ -30,7 +30,7 @@
 
 @media (max-width: 576px) and (min-width: 401px) {
   .titleCrono {
-    font-size: 80px;
+    font-size: 70px;
   }
 
   .cardSinIng {
@@ -39,13 +39,13 @@
   }
 
   .userCrono {
-    height: 4.5rem;
+    height: 3.5rem;
   }
 }
 
 @media (min-width: 577px) {
   .titleCrono {
-    font-size: 150px;
+    font-size: 110px;
   }
 
   .cardSinIng {
@@ -54,7 +54,7 @@
   }
 
   .userCrono {
-    height: 5rem;
+    height: 4rem;
   }
 }
 
@@ -62,6 +62,10 @@
   font-family: "Vibur", cursive;
   font-style: normal;
   color: #493d9e;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
 }
 
 .container_title_crono {
@@ -99,7 +103,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 20vh;
   /* original light blue translucent background */
   background-color: #DAD2FF90;
 } /* <-- LLAVE QUE FALTABA */
